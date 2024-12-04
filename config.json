@@ -1,36 +1,36 @@
 {
-    "rpcUrl": "https://api.devnet.solana.com",
+    "rpcUrl": "https://mainnet.helius-rpc.com/?api-key=5df9ba2f-d7f7-4b16-859d-4cb83ccb9ab5",
     "maxSignatures": 2,
-    "lamportsPerSignature": 5000,
+    "lamportsPerSignature": 10000,
     "corsOrigin": true,
     "endpoints": {
         "transfer": {
             "tokens": [
                 {
-                    "mint": "ATKQPGWboRDTafu6tQ9WkHHCruoYmRKNBR8YnesLnDSE",
-                    "account": "FvKKSh4WyKv4iiuRBVm143FQL71b1wkiaQnDajpeip6V",
+                    "mint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+                    "account": "3M6hmc9juDNXUDADunnvZwz7qmUtdNFeneJzfN8JZomY",
                     "decimals": 9,
-                    "fee": 10000000
+                    "fee": 1000000
                 }
             ]
         },
         "createAssociatedTokenAccount": {
             "tokens": [
                 {
-                    "mint": "ATKQPGWboRDTafu6tQ9WkHHCruoYmRKNBR8YnesLnDSE",
-                    "account": "FvKKSh4WyKv4iiuRBVm143FQL71b1wkiaQnDajpeip6V",
+                    "mint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+                    "account": "3M6hmc9juDNXUDADunnvZwz7qmUtdNFeneJzfN8JZomY",
                     "decimals": 9,
-                    "fee": 10000000
+                    "fee": 1000000
                 }
             ]
         },
         "whirlpoolsSwap": {
             "tokens": [
                 {
-                    "mint": "ATKQPGWboRDTafu6tQ9WkHHCruoYmRKNBR8YnesLnDSE",
-                    "account": "FvKKSh4WyKv4iiuRBVm143FQL71b1wkiaQnDajpeip6V",
+                    "mint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+                    "account": "3M6hmc9juDNXUDADunnvZwz7qmUtdNFeneJzfN8JZomY",
                     "decimals": 9,
-                    "fee": 10000000
+                    "fee": 1000000
                 }
             ]
         }
